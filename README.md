@@ -1,7 +1,6 @@
 # Differential Gene Expression Analysis — GSE255074
 
-Analysis of RNA-seq data from **GSE255074** to identify genes differentially expressed between tuberculosis (TB) positive and TB negative patients, followed by Gene Set Enrichment Analysis (GSEA). This project was completed during a summer internship at **IIT Hyderabad**.
-
+Analysis of RNA-seq data from **GSE255074** to identify genes differentially expressed between tuberculosis (TB) positive and TB negative patients, followed by Gene Set Enrichment Analysis (GSEA). 
 ## Overview
 
 The pipeline takes raw RNA-seq count data and public GEO metadata, performs quality filtering and normalization, fits a linear model to identify differentially expressed genes (DEGs), and runs downstream functional enrichment (GO: Biological Process) on the ranked gene list.
@@ -103,4 +102,4 @@ install.packages("dplyr")
 
 ## Acknowledgements
 
-This analysis was carried out as part of a summer internship at the **Indian Institute of Technology (IIT) Hyderabad**.
+This analysis was carried out as part of summer internship at the **Indian Institute of Technology Hyderabad**.
